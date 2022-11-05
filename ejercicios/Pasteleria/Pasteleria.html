@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasteleria</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pasteleria Dolcé</h1>
+    </header>
+
+    <img src="./Imagen/logo_Dolce.png" alt="Logo de pasteleria" />
+
+    <section>
+      <h2>Menu de pasteles</h2>
+      <h3>Sabores</h3>
+      <ul>
+        <li>Tradicional tres leches ................... $30</li>
+        <li>Tradicional envinado ................... $30</li>
+        <li>Chocolate ................... $30</li>
+        <li>Cafe .................... $30</li>
+        <li>Personalizado ............... $30</li>
+      </ul>
+
+      <h3>Adornos</h3>
+      <p>Para decorar al gusto su pastel</p>
+      <ul>
+        <li>Fondan ................... $15</li>
+        <li>Crema batida ................... $15</li>
+        <li>Chantilli ................... $15</li>
+        <li>Galletas .................... $15</li>
+      </ul>
+
+      <h3>Rellenos</h3>
+      <p>Tipos de rellenos para su pastel</p>
+      <ul>
+        <li>Fresa ................... $15</li>
+        <li>Durazno ................... $15</li>
+        <li>Almendras ................... $15</li>
+        <li>Nuez .................... $15</li>
+      </ul>
+    </section>
+    <hr />
+    <section>
+      <h2>Ubicacion</h2>
+      <h3>Sucursales</h3>
+
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Ubicacion</th>
+          <th>Horarios</th>
+        </tr>
+        <tr>
+          <td>Centro</td>
+          <td>
+            <a href="https://goo.gl/maps/ongKn5YpaiJMsCuP8" target="_blank"
+              >Eje Central Lázaro Cárdenas 58</a
+            >
+          </td>
+          <td>L - D 24h</td>
+        </tr>
+        <tr>
+          <td>Sur</td>
+          <td>
+            <a href="https://goo.gl/maps/UFmVMzKBkmdUsdLLA" target="_blank"
+              >Av Universidad 1778 Local FC 09 Col</a
+            >
+          </td>
+          <td>L - D 5pm - 3am</td>
+        </tr>
+        <tr>
+          <td>Norte</td>
+          <td>
+            <a href="https://goo.gl/maps/iro26GxojjJBWJYB9" target="_blank"
+              >Local Hacienda L-07, Av El Rosario 1025</a
+            >
+          </td>
+          <td>M - D 5pm - 3am</td>
+        </tr>
+      </table>
+
+      <h2>Pedidos</h2>
+      <h3>Haz tu pedido aqui</h3>
+
+      <form action="">
+        <p>¿de que pasteleria?</p>
+        <select>
+          <option value="Norte">Norte</option>
+          <option value="Centro">Centro</option>
+          <option value="Sur">Sur</option>
+        </select>
+
+        <p>¿De que quieres?</p>
+        <input
+          type="checkbox"
+          id="Tradicional tres leches"
+          name="Tradicional tres leches"
+          value="Tradicional tres leches"
+        />
+        <label for="Tradicional tres leches">Tradicional tres leches</label>
+        <input
+          type="text"
+          id="Tradicional tres leches"
+          placeholder="Tamaño de pastel"
+        />
+        <br />
+        <input
+          type="checkbox"
+          id="Tradicional envinado"
+          name="Tradicional envinado"
+          value="Tradicional envinado"
+        />
+        <label for="Tradicional envinado">Tradicional envinado</label>
+        <input
+          type="text"
+          id="Tradicional envinado"
+          placeholder="¿Tamaño de pastel?"
+        />
+        <br />
+        <input
+          type="checkbox"
+          id="Chocolate"
+          name="Chocolate"
+          value="Chocolate"
+        />
+        <label for="Chocolate">Chocolate</label>
+        <input type="text" id="Chocolate" placeholder="¿Tamaño de pastel?" />
+        <br />
+        <input type="checkbox" id="Cafe" name="Cafe" value="Cafe" />
+        <label for="Cafe">Cafe</label>
+        <input type="text" id="Cafe" placeholder="¿Tamaño de pastel?" />
+        <br />
+        <input
+          type="checkbox"
+          id="Personalizado"
+          name="Personalizado"
+          value="Personalizado"
+        />
+        <label for="Personalizado">Personalizado</label>
+        <input
+          type="text"
+          id="Personalizado"
+          placeholder="¿Tamaño de pastel?"
+        />
+
+        <br /><br />
+
+        <p>¿Que relleno quieres?</p>
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa" />
+        <label for="Fresa">Fresa</label>
+        <br />
+        <input type="checkbox" id="Durazno" name="Durazno" value="Durazno" />
+        <label for="Durazno">Durazno</label>
+        <br />
+        <input
+          type="checkbox"
+          id="Almendras"
+          name="Almendras"
+          value="Almendras"
+        />
+        <label for="Almendras">Almendras</label>
+        <br />
+        <input type="checkbox" id="Nuez" name="Nuez" value="Nuez" />
+        <label for="Nuez">Nuez</label>
+
+        <br /><br />
+
+        <p>¿Que adorno quieres?</p>
+        <input type="checkbox" id="Fondand" name="Fondand" value="Fondand" />
+        <label for="Fondand">Fondand</label>
+        <br />
+        <input
+          type="checkbox"
+          id="Crema Batida"
+          name="Crema Batida"
+          value="Crema Batida"
+        />
+        <label for="Crema Batida">Crema Batida</label>
+        <br />
+        <input
+          type="checkbox"
+          id="Chantilli"
+          name="Chantilli"
+          value="Chantilli"
+        />
+        <label for="Chantilli">Chantilli</label>
+        <br />
+        <input type="checkbox" id="Galletas" name="Galletas" value="Galletas" />
+        <label for="Galletas">Galletas</label>
+
+        <br /><br />
+
+        <label for="Nombre">Nombre</label><br />
+        <input
+          type="text"
+          id="Nombre"
+          name="Nombre"
+          placeholder="¿Como te llamas?"
+        />
+
+        <br /><br />
+
+        <label for="Telefono">Telefono</label><br />
+        <input
+          type="text"
+          id="Telefono"
+          name="Telefono"
+          placeholder="¿Cual es tu numero?"
+        />
+
+        <br /><br />
+
+        <label for="Direccion">Direccion</label><br />
+        <input
+          type="text"
+          id="Direccion"
+          name="Direccion"
+          placeholder="¿A donde lo mandamos?"
+        />
+
+        <button type="submit">Enviar pedido</button>
+
+        <br /><br />
+      </form>
+    </section>
+  </body>
+</html>
