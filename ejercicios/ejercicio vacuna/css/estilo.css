@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: corbel;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 30px;
+    max-width: 1300px;
+}
+
+/*CONFIG DE MENU*/
+
+nav{
+    position: absolute;
+    background: rgb(255, 255, 255,0.7);
+    width: 100%;
+    height: 110px;
+}
+
+.vaccina{
+    position: absolute;
+    padding: 40px 50px;
+    width: 300px;
+    height: 150px;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 110px;
+    margin: 0 35px;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    background: blue;
+    box-shadow: 5px 5px 8px rgb(189, 189, 189);
+}
+
+.ubicacion{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 50%;
+    width: 700px;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px 8px rgb(224, 244, 255);
+}
+
+table{
+    width: 500px;
+    height: 100px;
+}
+
+th{
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+td{
+    color: rgb(37, 37, 122);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*CONFIG DE BODY*/
+
+.fight_virus{
+    display: flex;
+    width: 100%;
+}
+
+.text_fight{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_Fight{
+    display: flex;
+    flex: 1;
+}
+
+h1{
+    color: rgb(37, 37, 122);
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+p{
+    color: rgb(110, 110, 189);
+    font-size: 19px;
+}
+
+.best_protection{
+    display: inline-block;
+    overflow: hidden;
+    color: rgb(37, 37, 122);
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(37, 37, 122);
+    font-size: 20px;
+}
+
+
+/*parte de vacuna*/
+
+.infovac{
+    width: 100%;
+    height: 250px;
+    padding-left: 40px;
+}
+
+.should_vaccine{
+    width: 100%;
+    align-items: center;
+}
+
+
+.conttarjetas{
+    display: flex;
+    width: 100%;
+    height: 280px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tarjeta{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(255, 255, 255,0.7);
+    border: 1px solid rgb(230, 240, 255);
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgb(224, 244, 255);
+}
+
+/*Parte de preparacion*/
+
+h2{
+    color: rgb(37, 37, 122);
+}
+
+.preparation{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.imagenprep{
+    display: flex;
+    flex: 1;
+}
+
+.informacionpreparacion{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desplegables{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prep{
+    margin: 20px;
+    width: 400px;
+    height: auto;
+}
+
+summary{
+    color: rgb(37, 37, 122);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*parte de contacto de emergencia*/
+
+.contactemergency{
+    width: 100%;
+    display: flex;
+}
+
+.infcontact{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conttarjetasinf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#tarjcontac{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background: rgb(255, 255, 255,0.7);
+    border: 1px solid rgb(230, 240, 255);
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgb(224, 244, 255);
+}
+
+.imagencontact{
+    flex: 1;
+    justify-content: center;
+}
+
+.contacto{
+    color: blue;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(224, 244, 255);
+}
+
+
+/*parte de pie de de pagina*/
+
+footer{
+    background: rgb(215, 238, 250);
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.pfooter{
+    position: absolute;
+    padding: 60px 50px;
+    width: 300px;
+    height: 150px;
+    color: rgb(110, 110, 189);
+    font-size: 19px;
+}
+
+.footervaccination{
+    flex: 1;
+    align-items: center;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutus{
+    width: 200px;
+}
+
